@@ -25,3 +25,7 @@ For structure and organization, the project includes a clear folder hierarchy. T
 To run this project locally, start by cloning the repository and navigating to the project directory. It's highly recommended to create a virtual environment using python -m venv venv, then activate it (venv\Scripts\activate for Windows or source venv/bin/activate for Unix/macOS). Install all dependencies by running pip install -r requirements.txt. Next, execute train_model.py to generate the trained model file. Once that’s done, launch the web application with python app.py. You can now open your browser and interact with the app at http://127.0.0.1:5000.
 
 This project demonstrates practical skills in machine learning, model deployment, and web integration. It’s a great example of how data science solutions can be turned into usable software products that people can interact with easily. The use of Flask as a web framework makes it extremely lightweight and ideal for small-to-medium scale ML deployments.
+
+#OUTPUT
+
+<img width="1920" height="873" alt="Image" src="https://github.com/user-attachments/assets/7a7f21c7-ed92-4223-8147-b7913b151ae8" />
