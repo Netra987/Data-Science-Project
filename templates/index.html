@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spam Detector</title>
+</head>
+<body style="text-align: center; font-family: sans-serif; margin-top: 100px;">
+    <h1>📩 Spam Message Detector</h1>
+    <form method="POST" action="/predict">
+        <textarea name="message" rows="6" cols="60" placeholder="Enter your message here..."></textarea><br><br>
+        <input type="submit" value="Detect Spam">
+    </form>
+    {% if prediction_text %}
+    <h2>Prediction: {{ prediction_text }}</h2>
+    {% endif %}
+</body>
+</html>
